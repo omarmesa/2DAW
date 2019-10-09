@@ -50,9 +50,17 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Exemple de formulari</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Exemple de formulari</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+    <style>
+        body{
+            /* background-image: url("http://hts.jo/guinniss/assets/img/backgrounds/1.jpg"); */
+            background-image: url("https://web.farroupilha.ifrs.edu.br/paginas/~diogo.zanco/planodefundo2.jpg");
+            background-size: cover;        }
+            }
+    </style>
 <body>
     <div style="margin: 30px 10%;">
         <h3>DIME ALGO BREVE SOBRE TI</h3>
